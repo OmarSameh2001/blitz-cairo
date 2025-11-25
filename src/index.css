@@ -6,3 +6,7 @@
 * {
   font-family: 'Cairo', sans-serif;
 }
+
+@theme {
+  --breakpoint-xs: 270px;
+}

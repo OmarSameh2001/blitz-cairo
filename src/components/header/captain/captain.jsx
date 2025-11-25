@@ -1,7 +1,7 @@
 import DriverCard from "../cards/driver";
-import driversImg from "../../../assets/drivers-large.png";
+import driversImg from "../../../assets/images/captain/drivers-large.png";
 import HorizontalCard from "../cards/horizontal";
-import driverImage from "../../../assets/driver.png";
+import driverImage from "../../../assets/images/captain/driver.png";
 const drivers = [
   {
     name: "يحيى اسلام",
