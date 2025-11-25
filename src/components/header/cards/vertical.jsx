@@ -6,7 +6,7 @@ export default function VerticalCard({
   fill=false, // when there is 4 vertical cards in a row
 }) {
   return (
-    <div className={`bg-[#fbefdf] rounded-lg my-4 flex flex-col items-center overflow-hidden min-w-fit sm:min-w-75 lg:min-w-3/16 h-[60vh] ${fill ? "max-w-7/32" : "max-w-6/32"}`}>
+    <div className={`bg-[#fbefdf] rounded-lg my-4 flex flex-col items-center overflow-hidden min-w-fit sm:min-w-75 lg:min-w-3/16 xs:h-[60vh] ${fill ? "max-w-7/32" : "max-w-6/32"}`}>
       <img
         src={image}
         alt={title}

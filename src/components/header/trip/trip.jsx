@@ -28,7 +28,7 @@ const trips = [
 
 export default function TripSection() {
   return (
-    <div className="bg-gradient-to-b from-[#303135] to-[#39414e] flex flex-wrap justify-center gap-4 p-12">
+    <>
       <HorizontalCard
         image={CairoNight}
         title={"ليالي القاهرة تهديك لحظات لا تُنسى"}
@@ -45,6 +45,6 @@ export default function TripSection() {
           buttonText={trip.buttonText}
         />
       ))}
-    </div>
+    </>
   );
 }

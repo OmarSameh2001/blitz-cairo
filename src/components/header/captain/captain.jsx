@@ -27,7 +27,7 @@ const drivers = [
 ];
 export default function CaptainSection() {
   return (
-    <div className="bg-gradient-to-b from-[#303135] to-[#39414e] flex flex-wrap justify-center gap-4 p-12">
+    <>
       <HorizontalCard
         image={driversImg}
         title={"اقوى وسيط للخدمات السياحية في مصر"}
@@ -47,6 +47,6 @@ export default function CaptainSection() {
           trips={driver.trips}
         />
       ))}
-    </div>
+    </>
   );
 }

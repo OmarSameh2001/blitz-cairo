@@ -32,7 +32,7 @@ const service = [
 ]
 export default function ServiceSection() {
     return (
-        <div className="bg-gradient-to-b from-[#303135] to-[#39414e] flex flex-wrap justify-center gap-4 p-12">
+        <>
             {service.map((item, index) => (
                 <VerticalCard
                     key={index}
@@ -43,6 +43,6 @@ export default function ServiceSection() {
                     fill={true}
                 />
             ))}
-        </div>
+        </>
     );
 }
