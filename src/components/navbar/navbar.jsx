@@ -38,10 +38,10 @@ export default function Navbar() {
               <img
                 alt="Your Company"
                 src={cairo}
-                className="h-8 w-auto"
+                className="h-10 md:h-15 w-auto pr-14"
               />
             </div>
-            <div className="hidden sm:ml-6 sm:block">
+            <div className="hidden sm:ml-6 sm:block content-evenly">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
                   <a
@@ -49,7 +49,7 @@ export default function Navbar() {
                     href={item.href}
                     aria-current={item.current ? 'page' : undefined}
                     className={classNames(
-                      item.current ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white',
+                      item.current ? 'bg-gray-950/50 text-white' : 'text-white hover:text-gray-300',
                       'rounded-md px-3 py-2 text-sm font-medium gap-1 flex items-center',
                     )}
                   >
@@ -73,7 +73,7 @@ export default function Navbar() {
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(
-                item.current ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white',
+                item.current ? 'bg-gray-950/50 text-white' : 'text-white hover:text-gray-300',
                 'block rounded-md px-3 py-2 text-base font-medium gap-1 flex items-center',
               )}
             >
